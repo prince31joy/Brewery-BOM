@@ -134,12 +134,6 @@
             <version>6.3</version>
         </dependency>
 		<dependency>
-			<groupId>com.github.JensPiegsa</groupId>
-			<artifactId>wiremock-extension</artifactId>
-			<version>0.4.0</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
 			<scope>test</scope>
@@ -184,11 +178,6 @@
 			<id>snapshots</id>
 			<name>libs-snapshot</name>
 			<url>https://dcsartifacts.dell.com/artifactory/libs-snapshot</url>
-		</repository>
-		
-		<repository>
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
 		</repository>
 	</repositories>
 	
